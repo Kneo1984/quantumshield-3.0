@@ -11,7 +11,7 @@ Die kommerzielle Nutzung, Verbreitung, Integration, Weiterentwicklung oder der V
 
 **Lizenzanfrage & Kontakt:**
 Für kommerzielle Lizenzierung, Integrationen oder Kooperationsanfragen schreiben Sie bitte an:
-> quantumshield@protonmail.com
+>kneolekks@gmail.com
 
 **Schutzvermerk:**
 QuantumShield™ ist ein geistiges Eigentum von KNEO. Alle Schutzmechanismen, Algorithmen, architekturellen Designs und kryptografischen Methoden unterliegen internationalem Urheberrecht. Verstöße werden verfolgt.
