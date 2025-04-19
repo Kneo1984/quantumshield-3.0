@@ -20,3 +20,5 @@ Entwickelt, um zu schützen. Bereit, um zu heilen.
 - 🧠 Selbsttest & Statusüberprüfung  
 - 🌀 Erweiterbar durch ShadowByte™-Module
   
+**Manifest lesen:**  
+[QuantumShield™ – Eine Revolution der Sicherheit](MANIFEST_QUANTUMSHIELD.md)
