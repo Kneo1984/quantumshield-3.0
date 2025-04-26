@@ -56,3 +56,15 @@ Entwickelt, um zu schützen. Bereit, um zu heilen.
 ---
 
 **#QuantumShield #Sprachsteuerung #SecurityByDesign #KIoffline #AuroraInterface #PythonDev #FastAPI #SQLite #AdminInterface #SpeechRecognition #OpenSourceSecurity**
+---
+
+## 🔒 Lizenz & Schutz
+
+QuantumShield™ 3.0 – (c) 2025 Dennis Maier (alias Kneo1984).  
+Alle Rechte vorbehalten.
+
+- Private Nutzung kostenlos.
+- Kommerzielle Nutzung nur mit Lizenz und schriftlicher Genehmigung.
+- Jede unautorisierte Nutzung, Verbreitung oder Modifikation wird strafrechtlich verfolgt.
+
+Kontakt für Lizenzanfragen: kneolekks@gmail.com
