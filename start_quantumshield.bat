@@ -4,5 +4,5 @@ echo ===============================
 echo    Starte QuantumShield™ 3.0
 echo ===============================
 cd /d %~dp0
-python quantumshield.py
+python core/quantumshield.py
 pause
