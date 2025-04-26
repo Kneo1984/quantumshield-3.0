@@ -1,0 +1,20 @@
+# Pakete für QuantumShield
+fastapi
+uvicorn
+sqlalchemy
+python-dotenv
+passlib[bcrypt]
+bcrypt
+uuid
+python-jose[cryptography]
+pyttsx3
+SpeechRecognition
+pyaudio
+psutil
+Pillow
+numpy
+cryptography
+opencv-python
+scikit-image
+pycaw  # extra für Systemlautstärkesteuerung (Windows)
+

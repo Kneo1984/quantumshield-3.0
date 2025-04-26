@@ -1,0 +1,39 @@
+from cryptosteganography import CryptoSteganography
+from Crypto.Cipher import AES
+import base64
+
+# 🔐 Nachricht und Passwort
+urspruengliche_nachricht = "REVOLUTION_START_2025"
+aes_passwort = "Aurora_Herzmatrix_256bit"
+aes_key = aes_passwort.ljust(32)[:32].encode("utf-8")
+
+# 🔐 AES-256 Verschlüsselung
+cipher = AES.new(aes_key, AES.MODE_EAX)
+ciphertext, tag = cipher.encrypt_and_digest(urspruengliche_nachricht.encode("utf-8"))
+base64_encoded = base64.b64encode(ciphertext).decode("utf-8")
+
+# 🔄 Caesar-Rotation (Shift 7)
+def caesar(text, shift=7):
+    result = ""
+    for char in text:
+        if char.isalpha():
+            base = 65 if char.isupper() else 97
+            result += chr((ord(char) - base + shift) % 26 + base)
+        else:
+            result += char
+    return result
+
+rotated = caesar(base64_encoded)
+
+# 🖼️ Steganografie ins Bild einbetten
+bildquelle = "C:/Users/denni/OneDrive/Bilder/Selbstgemachte_Bilder_KI/Mount_Everest_Me3.jpg.png"
+bild_ziel = "C:/Users/denni/OneDrive/Bilder/Selbstgemachte_Bilder_KI/Mount_Everest_Me3_VERSTECKT.png"
+
+steg = CryptoSteganography(aes_passwort)
+steg.hide(bildquelle, bild_ziel, rotated)
+
+print("✅ Verschlüsselung abgeschlossen.")
+print(f"🔒 Gespeichert als: {bild_ziel}")
+
+
+# Sag Bescheid, wenn du den Gegenpart zur Entschlüsselung brauchst.
