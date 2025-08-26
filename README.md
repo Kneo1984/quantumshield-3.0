@@ -68,3 +68,10 @@ Alle Rechte vorbehalten.
 - Jede unautorisierte Nutzung, Verbreitung oder Modifikation wird strafrechtlich verfolgt.
 
 Kontakt f√ºr Lizenzanfragen: kneolekks@gmail.com
+
+## Lizenzhinweis
+
+Forks sind ausschlieﬂlich zu Lern- oder Testzwecken erlaubt.  
+Jede kommerzielle oder produktive Nutzung ist ohne Lizenz verboten.  
+
+DENARIS-OS © 2025 Dennis Maier (KNEO)
